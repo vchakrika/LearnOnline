@@ -1,0 +1,164 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f7fb;
+    color: #333;
+}
+
+
+/* Navigation Bar */
+
+.navbar-brand {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.nav-link {
+    margin-left: 10px;
+}
+
+
+/* Welcome Section */
+
+.welcome-section {
+    background-color: #dcecff;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.welcome-section h1 {
+    font-size: 38px;
+    color: #243b64;
+    margin-bottom: 15px;
+}
+
+.welcome-section p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+
+/* Section Headings */
+
+.section-title {
+    text-align: center;
+    color: #243b64;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+
+/* Course Cards */
+
+.course-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    overflow: hidden;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.course-card .card-body {
+    padding: 20px;
+}
+
+.course-card .card-title {
+    color: #243b64;
+    font-weight: bold;
+}
+
+.course-card .card-text {
+    min-height: 48px;
+}
+
+.course-card iframe {
+    border-radius: 5px;
+}
+
+
+/* Search Bar */
+
+#searchInput {
+    padding: 12px;
+    border-radius: 6px;
+}
+
+
+/* Category Buttons */
+
+.filter-btn {
+    margin: 5px;
+}
+
+.filter-btn.active {
+    background-color: #0d6efd;
+    color: white;
+}
+
+
+/* About Section */
+
+.about-section {
+    background-color: #e5efff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about-section p {
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.8;
+}
+
+
+/* Contact Form */
+
+#contactForm {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #243b64;
+    color: white;
+    padding: 18px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+/* Mobile Layout */
+
+@media (max-width: 576px) {
+
+    .welcome-section {
+        padding: 45px 15px;
+    }
+
+    .welcome-section h1 {
+        font-size: 28px;
+    }
+
+    .welcome-section p {
+        font-size: 16px;
+    }
+
+    .filter-btn {
+        margin: 4px 2px;
+    }
+
+}
